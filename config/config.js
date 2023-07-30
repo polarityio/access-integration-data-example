@@ -7,6 +7,7 @@ module.exports = {
   },
   styles: ['./styles/style.less'],
   entityTypes: ['IPv4'],
+  defaultColor: "light-gray",
   block: {
     component: {
       file: './components/block.js'

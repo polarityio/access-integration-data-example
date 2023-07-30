@@ -5,6 +5,7 @@
   "logging": {
     "level": "trace"
   },
+  "defaultColor": "light-gray",
   "styles": [
     "./styles/style.less"
   ],
