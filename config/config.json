@@ -1,4 +1,5 @@
 {
+  "polarityIntegrationUuid": "978b8d00-2ea9-11ee-b409-674f5a6dde45",
   "name": "Access Integration Data Example",
   "acronym": "INT",
   "description": "Example code for accessing integration data from the block component file.",
