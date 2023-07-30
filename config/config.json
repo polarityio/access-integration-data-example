@@ -1,0 +1,32 @@
+{
+  "polarityIntegrationUuid": "978b8d00-2ea9-11ee-b409-674f5a6dde45",
+  "name": "Access Integration Data Example",
+  "acronym": "INT",
+  "description": "Example code for accessing integration data from the block component file.",
+  "logging": {
+    "level": "info"
+  },
+  "defaultColor": "light-gray",
+  "styles": [
+    "./styles/style.less"
+  ],
+  "entityTypes": [
+    "IPv4"
+  ],
+  "block": {
+    "component": {
+      "file": "./components/block.js"
+    },
+    "template": {
+      "file": "./templates/block.hbs"
+    }
+  },
+  "request": {
+    "cert": "",
+    "key": "",
+    "passphrase": "",
+    "ca": "",
+    "proxy": ""
+  },
+  "onDemandOnly": true
+}
