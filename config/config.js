@@ -3,7 +3,7 @@ module.exports = {
   acronym: 'INT',
   description: 'Example code for accessing integration data from the block component file.',
   logging: {
-    level: 'trace' //trace, debug, info, warn, error, fatal
+    level: 'info' //trace, debug, info, warn, error, fatal
   },
   styles: ['./styles/style.less'],
   entityTypes: ['IPv4'],

@@ -30,7 +30,7 @@ function doLookup(entities, options, cb) {
 }
 
 function onMessage(payload, options, cb) {
-  Logger.trace({ payload }, 'onMessage integration data received');
+  Logger.info({ payload }, 'onMessage integration data received');
   cb(null, {
     success: true
   });

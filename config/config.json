@@ -3,7 +3,7 @@
   "acronym": "INT",
   "description": "Example code for accessing integration data from the block component file.",
   "logging": {
-    "level": "trace"
+    "level": "info"
   },
   "defaultColor": "light-gray",
   "styles": [
