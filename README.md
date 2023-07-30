@@ -6,7 +6,7 @@
 
 This integration demonstrates how you can access integration data for an entity from an integration's component file (block.js).
 
-This integration implements a simple button in the template which when pressed, gathers all the integration data (including annotations), for the given entity, and sends it to the server's `onMessage` hook for further processing.
+This integration implements a simple button in the template which when pressed, gathers all the integration data for the given entity (including annotations), and sends it to the server's `onMessage` hook for further processing.
 
 Please see the `components/block.js` file for sample implementations for `getIntegrationData()` and `getAnnotations()`.
 
