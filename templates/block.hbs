@@ -1,0 +1,23 @@
+
+<div class="d-flex align-items-center justify-content-end copy-btn-container">
+  <div class="copy-success-message {{if block._state.showSuccessMessage 'visible' 'hidden'}}">
+    {{fa-icon icon="check" fixedWidth=true class="copy-success-icon"}}
+      Integration data submitted
+  </div>
+</div>
+<div class="d-flex flex-row justify-content-between align-items-center">
+    {{!-- submit button --}}
+    <button
+      {{action "submit"}}
+      class="p-btn btn btn-sm btn-light mt-1"
+      disabled={{block._state.isSubmitting}}
+    >
+      {{#if block._state.isSubmitting}}
+        {{fa-icon icon="spinner-third" fixedWidth=true spin=true}}
+      {{else}}
+        {{fa-icon icon="paper-plane" fixedWidth=true class="icon"}}
+        Submit
+      {{/if}}
+    </button>
+  </div>
+

@@ -1,0 +1,56 @@
+.scrollable-block {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.header-block {
+  background-color: #ddd;
+  padding: 5px;
+  font-family: 'Lucida Console', Monaco, monospace
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 400;
+  height: 30px;
+  width: 100px;
+  padding: 0px;
+
+  .icon {
+    font-size: 12px;
+    color: #aaa;
+  }
+}
+
+.copy-btn-container {
+  flex: 1 1 auto;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+
+  .copy-success-message {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(222, 226, 230);
+    min-width: max-content;
+    padding: 5px;
+    border-radius: 3px;
+
+    .copy-success-icon {
+      color: #aaa;
+    }
+
+    &.visible {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s linear;
+    }
+
+    &.hidden {
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s 0.5s, opacity 0.5s linear;
+    }
+  }
+}
